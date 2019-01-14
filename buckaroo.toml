@@ -1,3 +1,5 @@
+targets = [ "//:glog" ]
+
 [[dependency]]
 package = "github.com/buckaroo-pm/gflags"
 version = "branch=master"

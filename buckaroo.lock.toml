@@ -1,4 +1,4 @@
-manifest = "c53eb09c85a041555322aa176df5105ed642fb8d1f94f05459e2712530a9bbbd"
+manifest = "c92f12f4d7fa383dcbae419915c38d0b878dcf3d3a85df4f14986e4dd0430776"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/gflags"
