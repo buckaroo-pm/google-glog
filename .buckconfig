@@ -1,0 +1,15 @@
+[project]
+  ignore = .git
+
+[parser]
+  default_build_file_syntax = SKYLARK
+
+[cxx]
+  should_remap_host_platform = true
+
+[cxx#linux-x86_64]
+  should_remap_host_platform = true
+  cxxflags = -DOS_LINUX=1 -DHAVE_PTHREAD=1 -DHAVE_LIB_GFLAGS=1 -DHAVE_PREAD=1 -DHAVE___ATTRIBUTE__ -DHAVE_SYS_SYSCALL_H -DHAVE_SYS_TIME_H -DHAVE_STDINT_H -DHAVE_STRING_H -DHAVE_SYS_UTSNAME_H
+
+[glog]
+  namespace = google

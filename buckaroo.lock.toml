@@ -1,0 +1,13 @@
+manifest = "c53eb09c85a041555322aa176df5105ed642fb8d1f94f05459e2712530a9bbbd"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/gflags"
+target = "//:gflags"
+
+[lock."github.com/buckaroo-pm/gflags"]
+versions = [ "branch=master" ]
+revision = "6640528f2e69514d72aa590b14f1c95c510fc0c6"
+
+[lock."github.com/buckaroo-pm/gflags".lock."github.com/buckaroo-pm/host-pthread"]
+versions = [ "branch=master" ]
+revision = "a62519aa69c8e3243d6065fbf4c1d2de072f86f6"

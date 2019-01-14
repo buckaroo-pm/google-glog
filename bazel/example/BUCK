@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'example',
+  srcs = [
+    'main.cc',
+  ],
+  deps = [
+      '//:glog',
+  ],
+)
